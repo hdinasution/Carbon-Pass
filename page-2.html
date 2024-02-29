@@ -10,20 +10,18 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="information.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container text-center">
-      <div class="logo">
-        <img width="80" src="assets/logo.png" alt="Logo Automa" />
-        <span><b>| Emmision Information Page</b></span>
-      </div>
-
+      <img width="80" src="assets/logo.png" alt="Logo Automa" />
+      <span><b>| Emmision Information Page</b></span>
+      <br />
       <br />
 
       <div class="product-id">
-        <p>Product ID: 20240201</p>
-        <p>Producer: Alam Siak Lestari</p>
+        <p>Product ID: <strong>20240201</strong></p>
+        <p>Producer: <strong>Alam Siak Lestari</strong></p>
       </div>
 
       <br />
@@ -34,7 +32,7 @@
 
       <form>
         <div class="form-group">
-          <label for="nama">Nama</label>
+          <label for="nama">Nama </label>
           <input
             type="text"
             id="nama"
@@ -43,7 +41,7 @@
           />
         </div>
         <div class="form-group">
-          <label for="password">Email</label>
+          <label for="password">Email </label>
           <input
             type="email"
             id="email"
@@ -52,9 +50,6 @@
           />
         </div>
       </form>
-
-      <br />
-
       <p>
         Anda akan mendapatkan Link di e-mail yang Anda masukkan untuk membuka
         Emission Information untuk produk di atas.
@@ -62,12 +57,15 @@
 
       <br />
 
-      <button type="button" class="btn btn-primary">Kirim</button>
+      <a
+        type="button"
+        role="button"
+        href="page-3.html"
+        class="btn btn-primary w-50"
+        >Kirim</a
+      >
 
-      <div class="copyright">
-        <br />
-        <p>Copyright: PT Sentra Solusi Automa 2024</p>
-      </div>
+      <p class="mt-5">Copyright: PT Sentra Solusi Automa 2024</p>
     </div>
   </body>
 </html>

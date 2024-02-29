@@ -6,6 +6,10 @@ body {
   background-color: #ffffff;
 }
 
+p {
+  font-size: 12px;
+}
+
 .heading {
   color: #174060;
   padding: 10px;
@@ -123,4 +127,56 @@ body {
 .information p {
   line-height: 1;
   font-size: 13px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  padding-top: 100px !important;
+  color: #174060;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.heading img {
+  margin-right: 5px; /* Memberi jarak antara gambar dan judul */
+  width: 100px; /* Menyesuaikan lebar gambar */
+  height: auto; /* Menjaga proporsi aspek gambar */
+}
+
+.product-id p {
+  line-height: 0.5;
+  font-size: 13px;
+}
+
+.form-control {
+  width: 50% !important;
+}
+
+p {
+  font-size: 10px;
+}
+
+.form-group {
+  font-size: 13px;
+}
+
+.btn-primary {
+  width: 120px;
+  background-color: #174060 !important;
+  color: white !important;
+  font-size: 13px;
+}
+
+.form-check {
+  width: 200px !important;
 }

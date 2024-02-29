@@ -39,3 +39,8 @@ button {
 .form-check-label {
   font-size: 13px;
 }
+
+.product-id p {
+  line-height: 0.5;
+  font-size: 13px;
+}

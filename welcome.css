@@ -1,0 +1,41 @@
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.heading {
+  color: #174060;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.logo img {
+  width: 200px; /* Menyesuaikan lebar gambar */
+  height: auto; /* Menjaga proporsi aspek gambar */
+}
+
+.btn-primary {
+  width: 120px;
+  background-color: #174060 !important;
+  color: white !important;
+  font-size: 13px;
+}
+
+.copyright p {
+  font-size: 10px;
+}
+
+button {
+  background-color: #174060;
+  font-weight: 200;
+}
+
+.form-check-label {
+  font-size: 13px;
+}
